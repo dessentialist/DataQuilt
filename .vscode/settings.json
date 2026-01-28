@@ -1,0 +1,13 @@
+{
+  // Allow Tailwind directives like @tailwind and @apply without warnings
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+
+  // Optional: ensure Tailwind CSS language features kick in for CSS files
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
+
+
