@@ -1,0 +1,52 @@
+
+{"level":"INFO","ts":"2026-02-03T21:15:49.415Z","msg":"database_client_initialized","component":"database","sslMode":"verify-full","caSource":"env_b64"}
+{"level":"INFO","ts":"2026-02-03T21:15:49.760Z","msg":"env_validation_optional_missing","missingOptional":["ANTHROPIC_API_KEY"]}
+{"level":"INFO","ts":"2026-02-03T21:15:49.761Z","msg":"env_validation_success","environment":"development","hasOptionalKeys":["OPENAI_API_KEY","PERPLEXITY_API_KEY"]}
+[supabaseStorage] Assuming bucket 'oracle-files' exists (managed via Supabase dashboard)
+{"level":"INFO","ts":"2026-02-03T21:15:49.783Z","msg":"worker_database_client_initialized","component":"worker-database","sslMode":"verify-full","caSource":"env_b64"}
+🔄 Job processor started, polling for new jobs...
+{"level":"INFO","ts":"2026-02-03T21:15:49.785Z","msg":"worker_started","status":"success"}
+✅ Background worker started successfully
+Re-optimizing dependencies because lockfile has changed
+9:15:49 PM [express] serving on port 5000
+Browserslist: browsers data (caniuse-lite) is 16 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+💓 Worker heartbeat - 2026-02-03T21:16:49.785Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: false,
+  authHeaderPreview: null,
+  hasToken: false,
+  tokenPreview: null,
+  requestId: 'lWQYlZV655IQU8nuPN7Z2'
+}
+{"level":"WARN","ts":"2026-02-03T21:17:22.420Z","msg":"auth_missing_token","path":"/api/history","method":"GET","requestId":"lWQYlZV655IQU8nuPN7Z2"}
+AUTH MIDDLEWARE: No token found, returning 401
+{"level":"INFO","ts":"2026-02-03T21:17:22.421Z","msg":"http_request","method":"GET","path":"/api/history","status":401,"durationMs":3,"requestId":"lWQYlZV655IQU8nuPN7Z2"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: false,
+  authHeaderPreview: null,
+  hasToken: false,
+  tokenPreview: null,
+  requestId: 'Zlu3csU5Haabp901Ecaa1'
+}
+{"level":"WARN","ts":"2026-02-03T21:17:32.901Z","msg":"auth_missing_token","path":"/api/history","method":"GET","requestId":"Zlu3csU5Haabp901Ecaa1"}
+AUTH MIDDLEWARE: No token found, returning 401
+{"level":"INFO","ts":"2026-02-03T21:17:32.902Z","msg":"http_request","method":"GET","path":"/api/history","status":401,"durationMs":2,"requestId":"Zlu3csU5Haabp901Ecaa1"}
+💓 Worker heartbeat - 2026-02-03T21:17:49.785Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: false,
+  authHeaderPreview: null,
+  hasToken: false,
+  tokenPreview: null,
+  requestId: 'gDX3N_cU29-W5-5Kc74Pe'
+}
+{"level":"WARN","ts":"2026-02-03T21:18:02.515Z","msg":"auth_missing_token","path":"/api/history","method":"GET","requestId":"gDX3N_cU29-W5-5Kc74Pe"}
+AUTH MIDDLEWARE: No token found, returning 401
+{"level":"INFO","ts":"2026-02-03T21:18:02.516Z","msg":"http_request","method":"GET","path":"/api/history","status":401,"durationMs":2,"requestId":"gDX3N_cU29-W5-5Kc74Pe"}

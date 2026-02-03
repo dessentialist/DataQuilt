@@ -1,0 +1,1291 @@
+{"level":"INFO","ts":"2026-01-28T03:37:44.822Z","msg":"http_request","method":"GET","path":"/api/auth/session","status":200,"durationMs":388,"requestId":"qjEZW0G762Zt3f0YhlQj1"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/auth/session',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'mSUZPQ6mZ0-MFyGJyceUc'
+}
+{"level":"INFO","ts":"2026-01-28T03:37:45.016Z","msg":"AuthService.getSession:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"mSUZPQ6mZ0-MFyGJyceUc"}
+{"level":"INFO","ts":"2026-01-28T03:37:45.132Z","msg":"AuthService.getSession:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"mSUZPQ6mZ0-MFyGJyceUc"}
+{"level":"INFO","ts":"2026-01-28T03:37:45.134Z","msg":"http_request","method":"GET","path":"/api/auth/session","status":304,"durationMs":235,"requestId":"mSUZPQ6mZ0-MFyGJyceUc"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/auth/session',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'axqvlmwBSJjqxJKbeeman'
+}
+{"level":"INFO","ts":"2026-01-28T03:37:45.327Z","msg":"AuthService.getSession:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"axqvlmwBSJjqxJKbeeman"}
+{"level":"INFO","ts":"2026-01-28T03:37:45.442Z","msg":"AuthService.getSession:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"axqvlmwBSJjqxJKbeeman"}
+{"level":"INFO","ts":"2026-01-28T03:37:45.443Z","msg":"http_request","method":"GET","path":"/api/auth/session","status":304,"durationMs":232,"requestId":"axqvlmwBSJjqxJKbeeman"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/system-templates',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: '5-N_RJH9htzwRb3QgAtMk'
+}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/templates',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'ohAhm7uByaBqYOsUPMgbP'
+}
+{"level":"INFO","ts":"2026-01-28T03:37:48.099Z","msg":"SystemTemplatesService.list:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"5-N_RJH9htzwRb3QgAtMk"}
+{"level":"INFO","ts":"2026-01-28T03:37:48.216Z","msg":"TemplatesService.listTemplates:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"ohAhm7uByaBqYOsUPMgbP"}
+{"level":"INFO","ts":"2026-01-28T03:37:48.450Z","msg":"SystemTemplatesService.list:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":12,"requestId":"5-N_RJH9htzwRb3QgAtMk"}
+[SystemTemplatesController] list success { count: 12, requestId: '5-N_RJH9htzwRb3QgAtMk' }
+{"level":"INFO","ts":"2026-01-28T03:37:48.453Z","msg":"http_request","method":"GET","path":"/api/system-templates","status":200,"durationMs":474,"requestId":"5-N_RJH9htzwRb3QgAtMk"}
+{"level":"INFO","ts":"2026-01-28T03:37:48.638Z","msg":"TemplatesService.listTemplates:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":29,"requestId":"ohAhm7uByaBqYOsUPMgbP"}
+{"level":"INFO","ts":"2026-01-28T03:37:48.642Z","msg":"http_request","method":"GET","path":"/api/templates","status":200,"durationMs":661,"requestId":"ohAhm7uByaBqYOsUPMgbP"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/system-templates/ad1e2bfe-1ba6-42be-a93e-35d12f017fca',
+  method: 'PUT',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'wzPwq35OU1D4BdNgosfug'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:08.566Z","msg":"SystemTemplatesService.update:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","systemTemplateId":"ad1e2bfe-1ba6-42be-a93e-35d12f017fca","requestId":"wzPwq35OU1D4BdNgosfug"}
+{"level":"INFO","ts":"2026-01-28T03:38:08.691Z","msg":"SystemTemplatesService.update:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","systemTemplateId":"ad1e2bfe-1ba6-42be-a93e-35d12f017fca","requestId":"wzPwq35OU1D4BdNgosfug"}
+[SystemTemplatesController] update success {
+  systemTemplateId: 'ad1e2bfe-1ba6-42be-a93e-35d12f017fca',
+  requestId: 'wzPwq35OU1D4BdNgosfug'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:08.693Z","msg":"http_request","method":"PUT","path":"/api/system-templates/ad1e2bfe-1ba6-42be-a93e-35d12f017fca","status":200,"durationMs":246,"requestId":"wzPwq35OU1D4BdNgosfug"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/system-templates',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'B5xayOalJ-QPInDkAmscY'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:08.910Z","msg":"SystemTemplatesService.list:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"B5xayOalJ-QPInDkAmscY"}
+{"level":"INFO","ts":"2026-01-28T03:38:09.142Z","msg":"SystemTemplatesService.list:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":12,"requestId":"B5xayOalJ-QPInDkAmscY"}
+[SystemTemplatesController] list success { count: 12, requestId: 'B5xayOalJ-QPInDkAmscY' }
+{"level":"INFO","ts":"2026-01-28T03:38:09.145Z","msg":"http_request","method":"GET","path":"/api/system-templates","status":200,"durationMs":355,"requestId":"B5xayOalJ-QPInDkAmscY"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'kwSCVMTT-v4IYzCKcnlkM'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:10.362Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"kwSCVMTT-v4IYzCKcnlkM"}
+{"level":"INFO","ts":"2026-01-28T03:38:10.841Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":154,"requestId":"kwSCVMTT-v4IYzCKcnlkM"}
+{"level":"INFO","ts":"2026-01-28T03:38:10.860Z","msg":"http_request","method":"GET","path":"/api/history","status":200,"durationMs":614,"requestId":"kwSCVMTT-v4IYzCKcnlkM"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'gv3asMIgxJVT9OLyXLd_U'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:11.061Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"gv3asMIgxJVT9OLyXLd_U"}
+{"level":"INFO","ts":"2026-01-28T03:38:11.177Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"gv3asMIgxJVT9OLyXLd_U"}
+{"level":"INFO","ts":"2026-01-28T03:38:11.177Z","msg":"http_request","method":"GET","path":"/api/history","status":200,"durationMs":233,"requestId":"gv3asMIgxJVT9OLyXLd_U"}
+ROUTES: /api/files/upload endpoint hit {
+  method: 'POST',
+  path: '/api/files/upload',
+  hasBody: true,
+  contentType: 'multipart/form-data; boundary=----WebKitFormBoundaryBJVBH5hLKAZ4ZATQ',
+  contentLength: '18169',
+  hasAuthHeader: true,
+  requestId: '3aadr40n1qD0Z09jnqLGK',
+  timestamp: '2026-01-28T03:38:14.677Z'
+}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/files/upload',
+  method: 'POST',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: '3aadr40n1qD0Z09jnqLGK'
+}
+ROUTES: After auth middleware {
+  hasUser: true,
+  userId: 'fe7f45d7-6626-4106-bfb3-2eedc0ba652a',
+  requestId: '3aadr40n1qD0Z09jnqLGK'
+}
+ROUTES: After multer middleware {
+  hasFile: true,
+  fileName: 'DQ TMDC MA Test.csv',
+  fileSize: 17978,
+  requestId: '3aadr40n1qD0Z09jnqLGK'
+}
+SERVER FILES CONTROLLER: uploadFile method called {
+  requestId: '3aadr40n1qD0Z09jnqLGK',
+  method: 'POST',
+  path: '/api/files/upload',
+  hasUser: true,
+  hasFile: true,
+  timestamp: '2026-01-28T03:38:14.806Z'
+}
+SERVER FILES CONTROLLER: Debug context {
+  userPresent: true,
+  hasFile: true,
+  fileName: 'DQ TMDC MA Test.csv',
+  fileSize: 17978
+}
+{"level":"INFO","ts":"2026-01-28T03:38:14.806Z","msg":"FilesService.upload:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"3aadr40n1qD0Z09jnqLGK","fileName":"DQ TMDC MA Test.csv","fileSize":17978}
+[supabaseStorage] Assuming bucket 'oracle-files' exists (managed via Supabase dashboard)
+[supabaseStorage] Starting upload with service role key {
+  path: 'uploads/fe7f45d7-6626-4106-bfb3-2eedc0ba652a/2bd1d382-df94-4199-8d50-4cc070488d71.csv',
+  bufferSize: 17973,
+  hasSupabaseUrl: true,
+  hasServiceKey: true,
+  serviceKeyPreview: 'eyJhbGciOiJIUzI1NiIs...'
+}
+[supabaseStorage] Upload result {
+  hasData: true,
+  hasError: false,
+  error: null,
+  path: 'uploads/fe7f45d7-6626-4106-bfb3-2eedc0ba652a/2bd1d382-df94-4199-8d50-4cc070488d71.csv'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:15.334Z","msg":"FilesService.upload:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","fileId":"2bd1d382-df94-4199-8d50-4cc070488d71","requestId":"3aadr40n1qD0Z09jnqLGK"}
+{"level":"INFO","ts":"2026-01-28T03:38:15.334Z","msg":"file_uploaded","requestId":"3aadr40n1qD0Z09jnqLGK","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","fileId":"2bd1d382-df94-4199-8d50-4cc070488d71"}
+{"level":"INFO","ts":"2026-01-28T03:38:15.337Z","msg":"http_request","method":"POST","path":"/api/files/upload","status":200,"durationMs":660,"requestId":"3aadr40n1qD0Z09jnqLGK"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/files/2bd1d382-df94-4199-8d50-4cc070488d71/preview',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'goK226eAEAyuk-_Ghjnq0'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:15.564Z","msg":"FilesController.previewFile:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","fileId":"2bd1d382-df94-4199-8d50-4cc070488d71","requestId":"goK226eAEAyuk-_Ghjnq0"}
+{"level":"INFO","ts":"2026-01-28T03:38:15.565Z","msg":"FilesService.previewFirstRows:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","fileId":"2bd1d382-df94-4199-8d50-4cc070488d71","limit":5,"requestId":"goK226eAEAyuk-_Ghjnq0"}
+{"level":"INFO","ts":"2026-01-28T03:38:16.563Z","msg":"FilesService.previewFirstRows:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","fileId":"2bd1d382-df94-4199-8d50-4cc070488d71","rows":5,"requestId":"goK226eAEAyuk-_Ghjnq0"}
+{"level":"INFO","ts":"2026-01-28T03:38:16.563Z","msg":"FilesController.previewFile:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","fileId":"2bd1d382-df94-4199-8d50-4cc070488d71","rowCount":5,"requestId":"goK226eAEAyuk-_Ghjnq0"}
+{"level":"INFO","ts":"2026-01-28T03:38:16.564Z","msg":"http_request","method":"GET","path":"/api/files/2bd1d382-df94-4199-8d50-4cc070488d71/preview","status":200,"durationMs":1118,"requestId":"goK226eAEAyuk-_Ghjnq0"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'Aio-FfOEvXzum0Wpx2z1n'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:21.615Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"Aio-FfOEvXzum0Wpx2z1n"}
+{"level":"INFO","ts":"2026-01-28T03:38:21.733Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"Aio-FfOEvXzum0Wpx2z1n"}
+{"level":"INFO","ts":"2026-01-28T03:38:21.734Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":235,"requestId":"Aio-FfOEvXzum0Wpx2z1n"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/templates',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: '0RkBQy2LIE4bHQzUTLlhg'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:22.451Z","msg":"TemplatesService.listTemplates:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"0RkBQy2LIE4bHQzUTLlhg"}
+{"level":"INFO","ts":"2026-01-28T03:38:22.741Z","msg":"TemplatesService.listTemplates:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":29,"requestId":"0RkBQy2LIE4bHQzUTLlhg"}
+{"level":"INFO","ts":"2026-01-28T03:38:22.749Z","msg":"http_request","method":"GET","path":"/api/templates","status":304,"durationMs":415,"requestId":"0RkBQy2LIE4bHQzUTLlhg"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'oEqa6ZI6OffJDSEpdzGaZ'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:32.167Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"oEqa6ZI6OffJDSEpdzGaZ"}
+{"level":"INFO","ts":"2026-01-28T03:38:32.283Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"oEqa6ZI6OffJDSEpdzGaZ"}
+{"level":"INFO","ts":"2026-01-28T03:38:32.284Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":233,"requestId":"oEqa6ZI6OffJDSEpdzGaZ"}
+💓 Worker heartbeat - 2026-01-28T03:38:39.386Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'SvwcN5AVSdA7DBVS3Xrt5'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:42.721Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"SvwcN5AVSdA7DBVS3Xrt5"}
+{"level":"INFO","ts":"2026-01-28T03:38:42.837Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"SvwcN5AVSdA7DBVS3Xrt5"}
+{"level":"INFO","ts":"2026-01-28T03:38:42.838Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":235,"requestId":"SvwcN5AVSdA7DBVS3Xrt5"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'dv2Rv4AOEzh90aTy8cHnO'
+}
+{"level":"INFO","ts":"2026-01-28T03:38:53.282Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"dv2Rv4AOEzh90aTy8cHnO"}
+{"level":"INFO","ts":"2026-01-28T03:38:53.398Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"dv2Rv4AOEzh90aTy8cHnO"}
+{"level":"INFO","ts":"2026-01-28T03:38:53.398Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":235,"requestId":"dv2Rv4AOEzh90aTy8cHnO"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/jobs',
+  method: 'POST',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'HFtfKf4MlTfTIj6aKjobj'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:03.205Z","msg":"JobsService.createJob:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"HFtfKf4MlTfTIj6aKjobj"}
+{"level":"DEBUG","ts":"2026-01-28T03:39:03.682Z","msg":"prompt_validation_result","ok":true,"issueCount":0}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'pUAsuyhENOoL4ZZsm07Uj'
+}
+[supabaseStorage] Starting upload with service role key {
+  path: 'controls/fe7f45d7-6626-4106-bfb3-2eedc0ba652a/9e4a73f9-ae5e-42f2-9625-12f5764ee073.json',
+  bufferSize: 88,
+  hasSupabaseUrl: true,
+  hasServiceKey: true,
+  serviceKeyPreview: 'eyJhbGciOiJIUzI1NiIs...'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:04.055Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"pUAsuyhENOoL4ZZsm07Uj"}
+{"level":"INFO","ts":"2026-01-28T03:39:04.172Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"pUAsuyhENOoL4ZZsm07Uj"}
+{"level":"INFO","ts":"2026-01-28T03:39:04.173Z","msg":"http_request","method":"GET","path":"/api/history","status":200,"durationMs":463,"requestId":"pUAsuyhENOoL4ZZsm07Uj"}
+[supabaseStorage] Upload result {
+  hasData: true,
+  hasError: false,
+  error: null,
+  path: 'controls/fe7f45d7-6626-4106-bfb3-2eedc0ba652a/9e4a73f9-ae5e-42f2-9625-12f5764ee073.json'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:04.478Z","msg":"JobsService.createJob:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","jobId":"9e4a73f9-ae5e-42f2-9625-12f5764ee073","requestId":"HFtfKf4MlTfTIj6aKjobj"}
+{"level":"INFO","ts":"2026-01-28T03:39:04.478Z","msg":"job_created","requestId":"HFtfKf4MlTfTIj6aKjobj","jobId":"9e4a73f9-ae5e-42f2-9625-12f5764ee073","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a"}
+{"level":"INFO","ts":"2026-01-28T03:39:04.478Z","msg":"http_request","method":"POST","path":"/api/jobs","status":200,"durationMs":1391,"requestId":"HFtfKf4MlTfTIj6aKjobj"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/jobs/9e4a73f9-ae5e-42f2-9625-12f5764ee073',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'rbQkgymFF7LCZk7d7Tj3V'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:04.704Z","msg":"JobsService.getJob:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","jobId":"9e4a73f9-ae5e-42f2-9625-12f5764ee073","requestId":"rbQkgymFF7LCZk7d7Tj3V"}
+{"level":"INFO","ts":"2026-01-28T03:39:04.936Z","msg":"JobsService.getJob:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","jobId":"9e4a73f9-ae5e-42f2-9625-12f5764ee073","requestId":"rbQkgymFF7LCZk7d7Tj3V"}
+{"level":"INFO","ts":"2026-01-28T03:39:04.937Z","msg":"http_request","method":"GET","path":"/api/jobs/9e4a73f9-ae5e-42f2-9625-12f5764ee073","status":200,"durationMs":350,"requestId":"rbQkgymFF7LCZk7d7Tj3V"}
+📥 Claimed job 9e4a73f9-ae5e-42f2-9625-12f5764ee073 for processing
+🚀 Starting job 9e4a73f9-ae5e-42f2-9625-12f5764ee073
+[JobProcessor] Fresh job data: {
+  jobId: '9e4a73f9-ae5e-42f2-9625-12f5764ee073',
+  status: 'queued',
+  rowsProcessed: 0,
+  totalRows: 5,
+  hasPromptsConfig: true
+}
+[Options] loaded skipIfExistingValue=true path=controls/fe7f45d7-6626-4106-bfb3-2eedc0ba652a/9e4a73f9-ae5e-42f2-9625-12f5764ee073.json
+[JobProcessor] CSV data loaded: {
+  rowCount: 5,
+  sampleRow: {
+    'First Name': 'Eunice',
+    'Last Name': 'Jung',
+    Title: 'Senior Director, Head of Decision Science & Analytics, Global Regulatory Affairs',
+    'Company Name': 'Sanofi',
+    Email: 'eunice.jung@sanofi.com',
+    Departments: 'Information Technology, Legal',
+    'Mobile Phone': '',
+    Lists: 'MA 2024_Data Leaders, MA 2024_Analytics',
+    Industry: 'pharmaceuticals',
+    'Person Linkedin Url': 'http://www.linkedin.com/in/eunice-jung-6602213',
+    City: 'Cambridge',
+    'Acquired Company': 'Inhibrx (INBRX-101 assets)',
+    'Acquired Company Industry/Market/Domain': 'Pharma/Biotech',
+    'Deal Size (if disclosed)': '$2.2B',
+    'Month of Acquisition': 'June',
+    'Deal Details': '**Acquisition Summary: Sanofi–Inhibrx (INBRX-101 Assets)**\n' +
+      '\n' +
+      '**Asset Acquired**\n' +
+      '\n' +
+      'Sanofi acquired INBRX-101 (later renamed SAR447537), an optimized recombinant alpha-1 antitrypsin (AAT) augmentation therapy in development for alpha-1 antitrypsin deficiency (AATD).[1][3] INBRX-101 had completed Phase 1 clinical trials and was enrolling Phase 2 at the time of the deal announcement.[5] Sanofi also assumed all associated assets and liabilities.[1]\n' +
+      '\n' +
+      '**Deal Structure**\n' +
+      '\n' +
+      'The transaction was structured as a spin-off-plus-merger:[1]\n' +
+      '\n' +
+      '- Prior to closing, Inhibrx completed a spin-off of all non-INBRX-101 assets into a new publicly traded company, Inhibrx Biosciences, Inc. (operating as "Inhibrx").[2][3]\n' +
+      '- Sanofi then acquired Inhibrx through a merger.[1]\n' +
+      '- Inhibrx shareholders received per-share consideration: $30.00 cash + $5.00 contingent value right (CVR) upon achievement of a regulatory milestone + 0.25 shares of New Inhibrx.[1][5]\n' +
+      '- Sanofi retained an 8% equity stake in New Inhibrx.[1][5]\n' +
+      "- Sanofi assumed and retired Inhibrx's outstanding third-party debt and capitalized New Inhibrx with $200 million in cash.[1]\n" +
+      '- Aggregate transaction value: approximately $2.2 billion.[1]\n' +
+      '\n' +
+      '**Stated Rationale**\n' +
+      '\n' +
+      `According to Sanofi's Head of R&D, Houman Ashrafian: "The addition of INBRX-101 as a high potential asset to our rare disease portfolio reinforces our strategy to commit to differentiated and potential best-in-class products. With our expertise in rare diseases and growing presence in immune-mediated respiratory conditions, INBRX-101 will complement our approach to deploy R&D efforts in key areas of focus and address the needs of the underserved AATD patients and communities."[5] The acquisition was positioned to support Sanofi's portfolio growth strategy and complement its 30-year heritage in rare diseases.[5]\n` +
+      '\n' +
+      '**Key Dates**\n' +
+      '\n' +
+      '- **Announcement:** January 23, 2024[1][5]\n' +
+      '- **Completion:** May 30, 2024[3]\n' +
+      '\n' +
+      '**Post-Deal Information**\n' +
+      '\n' +
+      "Following closing, the asset was integrated into Sanofi's rare disease pipeline under the designation SAR447537.[3] New Inhibrx retained INBRX-109, INBRX-106, INBRX-105, and Inhibrx's non-INBRX-101 discovery pipeline, and continued operating under the Inhibrx name led by Mark P. Lappe as Chairman and CEO.[1][5]",
+    'Stakeholders Involved': '# Explicitly Named Stakeholders: Sanofi–Inhibrx (INBRX-101 Assets) Transaction\n' +
+      '\n' +
+      '**Mark P. Lappe**\n' +
+      '- Designation: Founder and CEO of Inhibrx\n' +
+      '- Company Represented: Inhibrx\n' +
+      '- Explicitly Stated Relationship: Founder and CEO of Inhibrx; transitioned to Chairman and CEO of New Inhibrx (the spun-off entity retaining non-INBRX-101 assets) following the transaction closing[1][3]\n' +
+      '\n' +
+      '**Houman Ashrafian**\n' +
+      '- Designation: Head of R&D\n' +
+      '- Company Represented: Sanofi\n' +
+      '- Explicitly Stated Relationship: Provided strategic rationale for the acquisition on behalf of Sanofi[5]\n' +
+      '\n' +
+      '---\n' +
+      '\n' +
+      '**Note:** The search results explicitly name only two individuals in connection with this transaction. While the press releases confirm that "the boards of directors of both Inhibrx and Sanofi have unanimously approved the transaction,"[1][2] no other individual board members, executives, or deal leads from either company are publicly named in the available sources. Financial advisors (Lazard for Sanofi; Centerview Partners for Inhibrx) and legal counsel are identified but excluded per standard stakeholder mapping protocol unless explicitly requested.'
+  },
+  headers: [
+    'First Name',
+    'Last Name',
+    'Title',
+    'Company Name',
+    'Email',
+    'Departments',
+    'Mobile Phone',
+    'Lists',
+    'Industry',
+    'Person Linkedin Url',
+    'City',
+    'Acquired Company',
+    'Acquired Company Industry/Market/Domain',
+    'Deal Size (if disclosed)',
+    'Month of Acquisition',
+    'Deal Details',
+    'Stakeholders Involved'
+  ]
+}
+[JobProcessor] Prompts parsed: {
+  promptCount: 4,
+  prompts: [
+    {
+      model: 'perplexity',
+      outputColumn: 'research_brief',
+      promptLength: 1310
+    },
+    {
+      model: 'openai',
+      outputColumn: 'personalization_brief',
+      promptLength: 1096
+    },
+    { model: 'openai', outputColumn: 'email_draft', promptLength: 686 },
+    { model: 'openai', outputColumn: 'email', promptLength: 429 }
+  ]
+}
+[JobProcessor] WorkingSet initialized { totalRows: 5, outputColumns: 4 }
+[Dedupe] key row=1 prompt=research_brief model=perplexity/sonar-reasoning-pro keySuffix=12140d20 len=4553
+[Dedupe] llmCallStart row=1 prompt=research_brief keySuffix=12140d20 len=4553
+[JobProcessor] Making LLM call {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  promptLength: 4577,
+  hasSystem: true
+}
+[PerplexityAdapter] params {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  requested: { timeoutMs: 20000, maxRetries: 2, modelId: 'sonar-reasoning-pro' },
+  effective: { temperature: 0, maxTokens: 4096, apiSurface: 'chat' },
+  sanitizedFields: [
+    {
+      field: 'temperature',
+      action: 'overridden',
+      reason: 'deterministic_json default',
+      from: undefined,
+      to: 0
+    }
+  ]
+}
+[LLMService:j9bt72] processMessages:start {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  hasSystem: true,
+  systemLen: 2552,
+  userLen: 4577,
+  totalLen: 7129,
+  timeoutMs: 20000,
+  timestamp: '2026-01-28T03:39:08.143Z'
+}
+[LLMService:g0no2d] withTimeoutAndRetries:start {
+  timeoutMs: 20000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:39:08.144Z'
+}
+[LLMService:g0no2d] attempt:0:start { timeoutMs: 20000, timestamp: '2026-01-28T03:39:08.144Z' }
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'CX1ETFgpPOW57cPAozorQ'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:14.680Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"CX1ETFgpPOW57cPAozorQ"}
+{"level":"INFO","ts":"2026-01-28T03:39:14.854Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"CX1ETFgpPOW57cPAozorQ"}
+{"level":"INFO","ts":"2026-01-28T03:39:14.855Z","msg":"http_request","method":"GET","path":"/api/history","status":200,"durationMs":292,"requestId":"CX1ETFgpPOW57cPAozorQ"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'O6b5Y6Z5CXBdfShBsMtox'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:25.366Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"O6b5Y6Z5CXBdfShBsMtox"}
+{"level":"INFO","ts":"2026-01-28T03:39:25.538Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"O6b5Y6Z5CXBdfShBsMtox"}
+{"level":"INFO","ts":"2026-01-28T03:39:25.539Z","msg":"http_request","method":"GET","path":"/api/history","status":200,"durationMs":289,"requestId":"O6b5Y6Z5CXBdfShBsMtox"}
+[LLMService:g0no2d] attempt:0:success {
+  elapsedMs: 19187,
+  timeoutMs: 20000,
+  headroom: 813,
+  timestamp: '2026-01-28T03:39:27.331Z'
+}
+[LLMService:j9bt72] processMessages:success {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  totalElapsedMs: 19187,
+  contentLen: 4378,
+  contentPreview: '## Verified Deal Facts\n' +
+    '\n' +
+    '**Announcement & Structure**  \n' +
+    'Sanofi announced the acqu',
+  timestamp: '2026-01-28T03:39:27.331Z'
+}
+[Dedupe] llmCallEnd row=1 prompt=research_brief keySuffix=12140d20 success=true len=4378
+[Dedupe] key row=1 prompt=personalization_brief model=openai/gpt-5 keySuffix=66c2720c len=5450
+[Dedupe] llmCallStart row=1 prompt=personalization_brief keySuffix=66c2720c len=5450
+[JobProcessor] Making LLM call {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  promptLength: 5520,
+  hasSystem: true
+}
+[LLMService] Reasoning model detected - using extended timeout { provider: 'openai', modelId: 'gpt-5', timeoutMs: 150000 }
+[OpenAIAdapter] params {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  requested: { timeoutMs: 150000, maxRetries: 2, modelId: 'gpt-5' },
+  effective: {
+    temperature: undefined,
+    maxTokens: 128000,
+    reasoningEffort: 'high',
+    apiSurface: 'responses'
+  },
+  sanitizedFields: []
+}
+[LLMService:z2mx9z] processMessages:start {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  hasSystem: true,
+  systemLen: 3890,
+  userLen: 5520,
+  totalLen: 9410,
+  timeoutMs: 150000,
+  timestamp: '2026-01-28T03:39:28.508Z'
+}
+[LLMService:xjzla4] withTimeoutAndRetries:start {
+  timeoutMs: 150000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:39:28.508Z'
+}
+[LLMService:xjzla4] attempt:0:start { timeoutMs: 150000, timestamp: '2026-01-28T03:39:28.508Z' }
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'NGbOJ-HSTMW70o72mUVKT'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:36.036Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"NGbOJ-HSTMW70o72mUVKT"}
+{"level":"INFO","ts":"2026-01-28T03:39:36.208Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"NGbOJ-HSTMW70o72mUVKT"}
+{"level":"INFO","ts":"2026-01-28T03:39:36.209Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":289,"requestId":"NGbOJ-HSTMW70o72mUVKT"}
+💓 Worker heartbeat - 2026-01-28T03:39:39.386Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'xBLB6JYs4wJ5T9Ma90VQZ'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:46.635Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"xBLB6JYs4wJ5T9Ma90VQZ"}
+{"level":"INFO","ts":"2026-01-28T03:39:46.808Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"xBLB6JYs4wJ5T9Ma90VQZ"}
+{"level":"INFO","ts":"2026-01-28T03:39:46.808Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":289,"requestId":"xBLB6JYs4wJ5T9Ma90VQZ"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'DC0c8M8nkBATzdvWP-1s8'
+}
+{"level":"INFO","ts":"2026-01-28T03:39:57.235Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"DC0c8M8nkBATzdvWP-1s8"}
+{"level":"INFO","ts":"2026-01-28T03:39:57.406Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"DC0c8M8nkBATzdvWP-1s8"}
+{"level":"INFO","ts":"2026-01-28T03:39:57.407Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":289,"requestId":"DC0c8M8nkBATzdvWP-1s8"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/debug/active-jobs',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'x7j8RRUI1gnmSE4dC5N25'
+}
+{"level":"INFO","ts":"2026-01-28T03:40:07.300Z","msg":"JobsService.getActiveJobs:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"x7j8RRUI1gnmSE4dC5N25"}
+{"level":"INFO","ts":"2026-01-28T03:40:07.644Z","msg":"JobsService.getActiveJobs:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","activeCount":1,"recentCount":5,"requestId":"x7j8RRUI1gnmSE4dC5N25"}
+{"level":"INFO","ts":"2026-01-28T03:40:07.644Z","msg":"debug_active_jobs_requested","requestId":"x7j8RRUI1gnmSE4dC5N25","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","activeJobCount":1,"recentJobCount":5,"activeJobIds":["9e4a73f9-ae5e-42f2-9625-12f5764ee073"]}
+{"level":"INFO","ts":"2026-01-28T03:40:07.646Z","msg":"http_request","method":"GET","path":"/api/debug/active-jobs","status":200,"durationMs":462,"requestId":"x7j8RRUI1gnmSE4dC5N25"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'SB9zdDxXhfnkNTd0ZfnvQ'
+}
+{"level":"INFO","ts":"2026-01-28T03:40:07.833Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"SB9zdDxXhfnkNTd0ZfnvQ"}
+{"level":"INFO","ts":"2026-01-28T03:40:07.951Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"SB9zdDxXhfnkNTd0ZfnvQ"}
+{"level":"INFO","ts":"2026-01-28T03:40:07.952Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":235,"requestId":"SB9zdDxXhfnkNTd0ZfnvQ"}
+[LLMService:xjzla4] attempt:0:success {
+  elapsedMs: 48510,
+  timeoutMs: 150000,
+  headroom: 101490,
+  timestamp: '2026-01-28T03:40:17.018Z'
+}
+[LLMService:z2mx9z] processMessages:success {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  totalElapsedMs: 48510,
+  contentLen: 2297,
+  contentPreview: '## Cohort Selection\n' +
+    'Analytics Owners\n' +
+    '\n' +
+    '## Selected Deal Signals (from research br',
+  timestamp: '2026-01-28T03:40:17.018Z'
+}
+[Dedupe] llmCallEnd row=1 prompt=personalization_brief keySuffix=66c2720c success=true len=2297
+[Dedupe] key row=1 prompt=email_draft model=openai/gpt-5 keySuffix=7867e658 len=2978
+[Dedupe] llmCallStart row=1 prompt=email_draft keySuffix=7867e658 len=2978
+[JobProcessor] Making LLM call {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  promptLength: 3022,
+  hasSystem: true
+}
+[LLMService] Reasoning model detected - using extended timeout { provider: 'openai', modelId: 'gpt-5', timeoutMs: 180000 }
+[OpenAIAdapter] params {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  requested: { timeoutMs: 180000, maxRetries: 2, modelId: 'gpt-5' },
+  effective: {
+    temperature: undefined,
+    maxTokens: 128000,
+    reasoningEffort: 'high',
+    apiSurface: 'responses'
+  },
+  sanitizedFields: []
+}
+[LLMService:ndemvq] processMessages:start {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  hasSystem: true,
+  systemLen: 21617,
+  userLen: 3022,
+  totalLen: 24639,
+  timeoutMs: 180000,
+  timestamp: '2026-01-28T03:40:18.019Z'
+}
+[LLMService:juf024] withTimeoutAndRetries:start {
+  timeoutMs: 180000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:40:18.020Z'
+}
+[LLMService:juf024] attempt:0:start { timeoutMs: 180000, timestamp: '2026-01-28T03:40:18.020Z' }
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'omyyiMGR2fwdy2-NjdMht'
+}
+{"level":"INFO","ts":"2026-01-28T03:40:18.374Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"omyyiMGR2fwdy2-NjdMht"}
+{"level":"INFO","ts":"2026-01-28T03:40:18.549Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"omyyiMGR2fwdy2-NjdMht"}
+{"level":"INFO","ts":"2026-01-28T03:40:18.550Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":292,"requestId":"omyyiMGR2fwdy2-NjdMht"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'BplWF4b106PfRKB2-fiZ6'
+}
+{"level":"INFO","ts":"2026-01-28T03:40:28.980Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"BplWF4b106PfRKB2-fiZ6"}
+{"level":"INFO","ts":"2026-01-28T03:40:29.153Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"BplWF4b106PfRKB2-fiZ6"}
+{"level":"INFO","ts":"2026-01-28T03:40:29.154Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":290,"requestId":"BplWF4b106PfRKB2-fiZ6"}
+💓 Worker heartbeat - 2026-01-28T03:40:39.386Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'Llds5H97EhKeQ-nV2SM-_'
+}
+{"level":"INFO","ts":"2026-01-28T03:40:39.583Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"Llds5H97EhKeQ-nV2SM-_"}
+{"level":"INFO","ts":"2026-01-28T03:40:39.754Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"Llds5H97EhKeQ-nV2SM-_"}
+{"level":"INFO","ts":"2026-01-28T03:40:39.756Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":290,"requestId":"Llds5H97EhKeQ-nV2SM-_"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'cPs4HapDFAJfzpxmCzehK'
+}
+{"level":"INFO","ts":"2026-01-28T03:40:50.184Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"cPs4HapDFAJfzpxmCzehK"}
+{"level":"INFO","ts":"2026-01-28T03:40:50.355Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"cPs4HapDFAJfzpxmCzehK"}
+{"level":"INFO","ts":"2026-01-28T03:40:50.356Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":290,"requestId":"cPs4HapDFAJfzpxmCzehK"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'rJx9_26RoNGUewGqgU1BS'
+}
+{"level":"INFO","ts":"2026-01-28T03:41:00.783Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"rJx9_26RoNGUewGqgU1BS"}
+{"level":"INFO","ts":"2026-01-28T03:41:00.959Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"rJx9_26RoNGUewGqgU1BS"}
+{"level":"INFO","ts":"2026-01-28T03:41:00.961Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":295,"requestId":"rJx9_26RoNGUewGqgU1BS"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'yNFCUjHivufeqeePXArIw'
+}
+{"level":"INFO","ts":"2026-01-28T03:41:11.393Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"yNFCUjHivufeqeePXArIw"}
+{"level":"INFO","ts":"2026-01-28T03:41:11.569Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"yNFCUjHivufeqeePXArIw"}
+{"level":"INFO","ts":"2026-01-28T03:41:11.570Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":295,"requestId":"yNFCUjHivufeqeePXArIw"}
+[LLMService:juf024] attempt:0:success {
+  elapsedMs: 54171,
+  timeoutMs: 180000,
+  headroom: 125829,
+  timestamp: '2026-01-28T03:41:12.191Z'
+}
+[LLMService:ndemvq] processMessages:success {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  totalElapsedMs: 54171,
+  contentLen: 1124,
+  contentPreview: 'Hi Eunice,\n' +
+    '\n' +
+    'Noticed Sanofi acquired Inhibrx’s INBRX-101 assets in June 2024. Wit',
+  timestamp: '2026-01-28T03:41:12.191Z'
+}
+[Dedupe] llmCallEnd row=1 prompt=email_draft keySuffix=7867e658 success=true len=1124
+[Dedupe] key row=1 prompt=email model=openai/gpt-5 keySuffix=fad95da8 len=3785
+[Dedupe] llmCallStart row=1 prompt=email keySuffix=fad95da8 len=3785
+[JobProcessor] Making LLM call {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  promptLength: 3810,
+  hasSystem: true
+}
+[LLMService] Reasoning model detected - using extended timeout { provider: 'openai', modelId: 'gpt-5', timeoutMs: 180000 }
+[LLMService:c3du3b] processMessages:start {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  hasSystem: true,
+  systemLen: 16840,
+  userLen: 3810,
+  totalLen: 20650,
+  timeoutMs: 180000,
+  timestamp: '2026-01-28T03:41:13.295Z'
+}
+[LLMService:rg9u9x] withTimeoutAndRetries:start {
+  timeoutMs: 180000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:41:13.295Z'
+}
+[LLMService:rg9u9x] attempt:0:start { timeoutMs: 180000, timestamp: '2026-01-28T03:41:13.295Z' }
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'vpoZZexkL-1LJfTMFB9mu'
+}
+{"level":"INFO","ts":"2026-01-28T03:41:22.008Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"vpoZZexkL-1LJfTMFB9mu"}
+{"level":"INFO","ts":"2026-01-28T03:41:22.183Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"vpoZZexkL-1LJfTMFB9mu"}
+{"level":"INFO","ts":"2026-01-28T03:41:22.184Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":297,"requestId":"vpoZZexkL-1LJfTMFB9mu"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'ie7Ag-ry5SASY6FvfM2YU'
+}
+{"level":"INFO","ts":"2026-01-28T03:41:32.608Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"ie7Ag-ry5SASY6FvfM2YU"}
+{"level":"INFO","ts":"2026-01-28T03:41:32.783Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"ie7Ag-ry5SASY6FvfM2YU"}
+{"level":"INFO","ts":"2026-01-28T03:41:32.784Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":294,"requestId":"ie7Ag-ry5SASY6FvfM2YU"}
+💓 Worker heartbeat - 2026-01-28T03:41:39.386Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'lUogs0OrOPDS1NXCYXG4f'
+}
+{"level":"INFO","ts":"2026-01-28T03:41:43.217Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"lUogs0OrOPDS1NXCYXG4f"}
+{"level":"INFO","ts":"2026-01-28T03:41:43.394Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"lUogs0OrOPDS1NXCYXG4f"}
+{"level":"INFO","ts":"2026-01-28T03:41:43.395Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":298,"requestId":"lUogs0OrOPDS1NXCYXG4f"}
+[LLMService:rg9u9x] attempt:0:success {
+  elapsedMs: 32934,
+  timeoutMs: 180000,
+  headroom: 147066,
+  timestamp: '2026-01-28T03:41:46.229Z'
+}
+[LLMService:c3du3b] processMessages:success {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  totalElapsedMs: 32934,
+  contentLen: 1153,
+  contentPreview: 'Hi Eunice,\n' +
+    '\n' +
+    'Noticed Sanofi acquired the INBRX-101 program in 2024. With only tha',
+  timestamp: '2026-01-28T03:41:46.229Z'
+}
+[Dedupe] llmCallEnd row=1 prompt=email keySuffix=fad95da8 success=true len=1153
+[Dedupe] key row=2 prompt=research_brief model=perplexity/sonar-reasoning-pro keySuffix=171ef7cc len=4489
+[Dedupe] llmCallStart row=2 prompt=research_brief keySuffix=171ef7cc len=4489
+[JobProcessor] Making LLM call {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  promptLength: 4513,
+  hasSystem: true
+}
+[LLMService:8xq89c] processMessages:start {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  hasSystem: true,
+  systemLen: 2552,
+  userLen: 4513,
+  totalLen: 7065,
+  timeoutMs: 20000,
+  timestamp: '2026-01-28T03:41:47.928Z'
+}
+[LLMService:6bs6ni] withTimeoutAndRetries:start {
+  timeoutMs: 20000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:41:47.928Z'
+}
+[LLMService:6bs6ni] attempt:0:start { timeoutMs: 20000, timestamp: '2026-01-28T03:41:47.928Z' }
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'RFF8yEO0NVgnxQdjGZZdm'
+}
+{"level":"INFO","ts":"2026-01-28T03:41:53.827Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"RFF8yEO0NVgnxQdjGZZdm"}
+{"level":"INFO","ts":"2026-01-28T03:41:54.002Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"RFF8yEO0NVgnxQdjGZZdm"}
+{"level":"INFO","ts":"2026-01-28T03:41:54.004Z","msg":"http_request","method":"GET","path":"/api/history","status":200,"durationMs":295,"requestId":"RFF8yEO0NVgnxQdjGZZdm"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'OfHzqt0pMTpMn1AY1Nb0M'
+}
+{"level":"INFO","ts":"2026-01-28T03:42:04.621Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"OfHzqt0pMTpMn1AY1Nb0M"}
+{"level":"INFO","ts":"2026-01-28T03:42:04.797Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"OfHzqt0pMTpMn1AY1Nb0M"}
+{"level":"INFO","ts":"2026-01-28T03:42:04.798Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":295,"requestId":"OfHzqt0pMTpMn1AY1Nb0M"}
+[LLMService:6bs6ni] attempt:0:success {
+  elapsedMs: 17126,
+  timeoutMs: 20000,
+  headroom: 2874,
+  timestamp: '2026-01-28T03:42:05.054Z'
+}
+[LLMService:8xq89c] processMessages:success {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  totalElapsedMs: 17127,
+  contentLen: 4552,
+  contentPreview: '## Verified Deal Facts\n' +
+    '\n' +
+    '**Acquirer:** Vertex Pharmaceuticals  \n' +
+    '**Acquired Compan',
+  timestamp: '2026-01-28T03:42:05.055Z'
+}
+[Dedupe] llmCallEnd row=2 prompt=research_brief keySuffix=171ef7cc success=true len=4552
+[Dedupe] key row=2 prompt=personalization_brief model=openai/gpt-5 keySuffix=cc0b27ce len=5632
+[Dedupe] llmCallStart row=2 prompt=personalization_brief keySuffix=cc0b27ce len=5632
+[JobProcessor] Making LLM call {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  promptLength: 5704,
+  hasSystem: true
+}
+[LLMService] Reasoning model detected - using extended timeout { provider: 'openai', modelId: 'gpt-5', timeoutMs: 150000 }
+[LLMService:ea9np3] processMessages:start {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  hasSystem: true,
+  systemLen: 3895,
+  userLen: 5704,
+  totalLen: 9599,
+  timeoutMs: 150000,
+  timestamp: '2026-01-28T03:42:06.233Z'
+}
+[LLMService:qluclh] withTimeoutAndRetries:start {
+  timeoutMs: 150000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:42:06.233Z'
+}
+[LLMService:qluclh] attempt:0:start { timeoutMs: 150000, timestamp: '2026-01-28T03:42:06.233Z' }
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'P7LFOORk1jNwWSlM_KZOS'
+}
+{"level":"INFO","ts":"2026-01-28T03:42:15.235Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"P7LFOORk1jNwWSlM_KZOS"}
+{"level":"INFO","ts":"2026-01-28T03:42:15.409Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"P7LFOORk1jNwWSlM_KZOS"}
+{"level":"INFO","ts":"2026-01-28T03:42:15.411Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":295,"requestId":"P7LFOORk1jNwWSlM_KZOS"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: '-O1tX_keHF2pDownULUpr'
+}
+{"level":"INFO","ts":"2026-01-28T03:42:25.840Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"-O1tX_keHF2pDownULUpr"}
+{"level":"INFO","ts":"2026-01-28T03:42:26.014Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"-O1tX_keHF2pDownULUpr"}
+{"level":"INFO","ts":"2026-01-28T03:42:26.015Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":293,"requestId":"-O1tX_keHF2pDownULUpr"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'cTrKfnBWv_p-rQip0qk4T'
+}
+{"level":"INFO","ts":"2026-01-28T03:42:36.441Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"cTrKfnBWv_p-rQip0qk4T"}
+{"level":"INFO","ts":"2026-01-28T03:42:36.618Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"cTrKfnBWv_p-rQip0qk4T"}
+{"level":"INFO","ts":"2026-01-28T03:42:36.619Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":298,"requestId":"cTrKfnBWv_p-rQip0qk4T"}
+💓 Worker heartbeat - 2026-01-28T03:42:39.386Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'fstKwWqTpXfZxYrsuBsx6'
+}
+{"level":"INFO","ts":"2026-01-28T03:42:47.050Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"fstKwWqTpXfZxYrsuBsx6"}
+{"level":"INFO","ts":"2026-01-28T03:42:47.225Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"fstKwWqTpXfZxYrsuBsx6"}
+{"level":"INFO","ts":"2026-01-28T03:42:47.226Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":295,"requestId":"fstKwWqTpXfZxYrsuBsx6"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'iNRqdoQirBnT9s1imgz6R'
+}
+{"level":"INFO","ts":"2026-01-28T03:42:57.665Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"iNRqdoQirBnT9s1imgz6R"}
+{"level":"INFO","ts":"2026-01-28T03:42:57.843Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"iNRqdoQirBnT9s1imgz6R"}
+{"level":"INFO","ts":"2026-01-28T03:42:57.844Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":297,"requestId":"iNRqdoQirBnT9s1imgz6R"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: '66H2dJXmJe8VOJ-DX5C-j'
+}
+{"level":"INFO","ts":"2026-01-28T03:43:08.276Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"66H2dJXmJe8VOJ-DX5C-j"}
+{"level":"INFO","ts":"2026-01-28T03:43:08.451Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"66H2dJXmJe8VOJ-DX5C-j"}
+{"level":"INFO","ts":"2026-01-28T03:43:08.453Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":296,"requestId":"66H2dJXmJe8VOJ-DX5C-j"}
+[LLMService:qluclh] attempt:0:success {
+  elapsedMs: 70584,
+  timeoutMs: 150000,
+  headroom: 79416,
+  timestamp: '2026-01-28T03:43:16.817Z'
+}
+[LLMService:ea9np3] processMessages:success {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  totalElapsedMs: 70584,
+  contentLen: 2159,
+  contentPreview: '## Cohort Selection\n' +
+    'Analytics Owners\n' +
+    '\n' +
+    '## Selected Deal Signals (from research br',
+  timestamp: '2026-01-28T03:43:16.817Z'
+}
+[Dedupe] llmCallEnd row=2 prompt=personalization_brief keySuffix=cc0b27ce success=true len=2159
+[Dedupe] key row=2 prompt=email_draft model=openai/gpt-5 keySuffix=e4192013 len=2830
+[Dedupe] llmCallStart row=2 prompt=email_draft keySuffix=e4192013 len=2830
+[JobProcessor] Making LLM call {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  promptLength: 2894,
+  hasSystem: true
+}
+[LLMService] Reasoning model detected - using extended timeout { provider: 'openai', modelId: 'gpt-5', timeoutMs: 180000 }
+[LLMService:7pyue9] processMessages:start {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  hasSystem: true,
+  systemLen: 20794,
+  userLen: 2894,
+  totalLen: 23688,
+  timeoutMs: 180000,
+  timestamp: '2026-01-28T03:43:17.741Z'
+}
+[LLMService:ualbhp] withTimeoutAndRetries:start {
+  timeoutMs: 180000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:43:17.741Z'
+}
+[LLMService:ualbhp] attempt:0:start { timeoutMs: 180000, timestamp: '2026-01-28T03:43:17.741Z' }
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: '9lZscz3stn5s8sejlcZX0'
+}
+{"level":"INFO","ts":"2026-01-28T03:43:18.885Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"9lZscz3stn5s8sejlcZX0"}
+{"level":"INFO","ts":"2026-01-28T03:43:19.062Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"9lZscz3stn5s8sejlcZX0"}
+{"level":"INFO","ts":"2026-01-28T03:43:19.063Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":296,"requestId":"9lZscz3stn5s8sejlcZX0"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'mhazNTIzCWHujdxQKkDgJ'
+}
+{"level":"INFO","ts":"2026-01-28T03:43:29.510Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"mhazNTIzCWHujdxQKkDgJ"}
+{"level":"INFO","ts":"2026-01-28T03:43:29.688Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"mhazNTIzCWHujdxQKkDgJ"}
+{"level":"INFO","ts":"2026-01-28T03:43:29.688Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":296,"requestId":"mhazNTIzCWHujdxQKkDgJ"}
+💓 Worker heartbeat - 2026-01-28T03:43:39.385Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'i3zAOXZALmD464akII0y3'
+}
+{"level":"INFO","ts":"2026-01-28T03:43:40.122Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"i3zAOXZALmD464akII0y3"}
+{"level":"INFO","ts":"2026-01-28T03:43:40.297Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"i3zAOXZALmD464akII0y3"}
+{"level":"INFO","ts":"2026-01-28T03:43:40.298Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":295,"requestId":"i3zAOXZALmD464akII0y3"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: '-snU1RH8kzYU7LBkYDHjP'
+}
+{"level":"INFO","ts":"2026-01-28T03:43:50.748Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"-snU1RH8kzYU7LBkYDHjP"}
+{"level":"INFO","ts":"2026-01-28T03:43:50.923Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"-snU1RH8kzYU7LBkYDHjP"}
+{"level":"INFO","ts":"2026-01-28T03:43:50.924Z","msg":"http_request","method":"GET","path":"/api/history","status":200,"durationMs":308,"requestId":"-snU1RH8kzYU7LBkYDHjP"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'eHbIc0tU58cutZCFRd4TY'
+}
+{"level":"INFO","ts":"2026-01-28T03:44:01.456Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"eHbIc0tU58cutZCFRd4TY"}
+{"level":"INFO","ts":"2026-01-28T03:44:01.632Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"eHbIc0tU58cutZCFRd4TY"}
+{"level":"INFO","ts":"2026-01-28T03:44:01.633Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":301,"requestId":"eHbIc0tU58cutZCFRd4TY"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'q59PqFHQZfvc7bpJXbOZn'
+}
+{"level":"INFO","ts":"2026-01-28T03:44:12.067Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"q59PqFHQZfvc7bpJXbOZn"}
+{"level":"INFO","ts":"2026-01-28T03:44:12.241Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"q59PqFHQZfvc7bpJXbOZn"}
+{"level":"INFO","ts":"2026-01-28T03:44:12.242Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":293,"requestId":"q59PqFHQZfvc7bpJXbOZn"}
+[LLMService:ualbhp] attempt:0:success {
+  elapsedMs: 63972,
+  timeoutMs: 180000,
+  headroom: 116028,
+  timestamp: '2026-01-28T03:44:21.713Z'
+}
+[LLMService:7pyue9] processMessages:success {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  totalElapsedMs: 63972,
+  contentLen: 1099,
+  contentPreview: 'Hi Kristina,\n' +
+    '\n' +
+    'Noticed Vertex acquired Alpine Immune Sciences in April 2024. With',
+  timestamp: '2026-01-28T03:44:21.713Z'
+}
+[Dedupe] llmCallEnd row=2 prompt=email_draft keySuffix=e4192013 success=true len=1099
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'YK1H5EHYsl6cWNJ0DixAa'
+}
+[Dedupe] key row=2 prompt=email model=openai/gpt-5 keySuffix=41272979 len=3602
+{"level":"INFO","ts":"2026-01-28T03:44:22.679Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"YK1H5EHYsl6cWNJ0DixAa"}
+[Dedupe] llmCallStart row=2 prompt=email keySuffix=41272979 len=3602
+[JobProcessor] Making LLM call {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  promptLength: 3647,
+  hasSystem: true
+}
+[LLMService] Reasoning model detected - using extended timeout { provider: 'openai', modelId: 'gpt-5', timeoutMs: 180000 }
+[LLMService:buykft] processMessages:start {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  hasSystem: true,
+  systemLen: 16243,
+  userLen: 3647,
+  totalLen: 19890,
+  timeoutMs: 180000,
+  timestamp: '2026-01-28T03:44:22.730Z'
+}
+[LLMService:yx1m3z] withTimeoutAndRetries:start {
+  timeoutMs: 180000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:44:22.730Z'
+}
+[LLMService:yx1m3z] attempt:0:start { timeoutMs: 180000, timestamp: '2026-01-28T03:44:22.730Z' }
+{"level":"INFO","ts":"2026-01-28T03:44:22.863Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"YK1H5EHYsl6cWNJ0DixAa"}
+{"level":"INFO","ts":"2026-01-28T03:44:22.864Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":304,"requestId":"YK1H5EHYsl6cWNJ0DixAa"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: '9YBCgDY_QZvhPChxycnC-'
+}
+{"level":"INFO","ts":"2026-01-28T03:44:33.306Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"9YBCgDY_QZvhPChxycnC-"}
+{"level":"INFO","ts":"2026-01-28T03:44:33.484Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"9YBCgDY_QZvhPChxycnC-"}
+{"level":"INFO","ts":"2026-01-28T03:44:33.486Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":300,"requestId":"9YBCgDY_QZvhPChxycnC-"}
+💓 Worker heartbeat - 2026-01-28T03:44:39.386Z
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/history',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'i7gbcAYD31u5GHONfSIE9'
+}
+{"level":"INFO","ts":"2026-01-28T03:44:45.224Z","msg":"AuthService.syncUser:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"rTW6Ac4c13qDBH_1A_bxV"}
+{"level":"INFO","ts":"2026-01-28T03:44:45.340Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"i7gbcAYD31u5GHONfSIE9"}
+{"level":"INFO","ts":"2026-01-28T03:44:45.459Z","msg":"AuthService.syncUser:exists","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"rTW6Ac4c13qDBH_1A_bxV"}
+{"level":"INFO","ts":"2026-01-28T03:44:45.459Z","msg":"http_request","method":"POST","path":"/api/auth/sync","status":200,"durationMs":236,"requestId":"rTW6Ac4c13qDBH_1A_bxV"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/auth/session',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'OE2fx6jGJ6aS7fQi5rTd0'
+}
+{"level":"INFO","ts":"2026-01-28T03:44:45.633Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":1,"requestId":"i7gbcAYD31u5GHONfSIE9"}
+{"level":"INFO","ts":"2026-01-28T03:44:45.633Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":412,"requestId":"i7gbcAYD31u5GHONfSIE9"}
+{"level":"INFO","ts":"2026-01-28T03:44:45.752Z","msg":"AuthService.getSession:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"OE2fx6jGJ6aS7fQi5rTd0"}
+{"level":"INFO","ts":"2026-01-28T03:44:45.869Z","msg":"AuthService.getSession:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"OE2fx6jGJ6aS7fQi5rTd0"}
+{"level":"INFO","ts":"2026-01-28T03:44:45.869Z","msg":"http_request","method":"GET","path":"/api/auth/session","status":304,"durationMs":333,"requestId":"OE2fx6jGJ6aS7fQi5rTd0"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/debug/active-jobs',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'JprxO82S4rh8my-tOeKql'
+}
+{"level":"INFO","ts":"2026-01-28T03:44:47.682Z","msg":"JobsService.getActiveJobs:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"JprxO82S4rh8my-tOeKql"}
+{"level":"INFO","ts":"2026-01-28T03:44:48.035Z","msg":"JobsService.getActiveJobs:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","activeCount":1,"recentCount":5,"requestId":"JprxO82S4rh8my-tOeKql"}
+{"level":"INFO","ts":"2026-01-28T03:44:48.035Z","msg":"debug_active_jobs_requested","requestId":"JprxO82S4rh8my-tOeKql","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","activeJobCount":1,"recentJobCount":5,"activeJobIds":["9e4a73f9-ae5e-42f2-9625-12f5764ee073"]}
+{"level":"INFO","ts":"2026-01-28T03:44:48.037Z","msg":"http_request","method":"GET","path":"/api/debug/active-jobs","status":200,"durationMs":473,"requestId":"JprxO82S4rh8my-tOeKql"}
+[LLMService:yx1m3z] attempt:0:success {
+  elapsedMs: 47099,
+  timeoutMs: 180000,
+  headroom: 132901,
+  timestamp: '2026-01-28T03:45:09.829Z'
+}
+[LLMService:buykft] processMessages:success {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  totalElapsedMs: 47099,
+  contentLen: 1096,
+  contentPreview: 'Hi Kristina,\n' +
+    '\n' +
+    'Noticed Vertex acquired Alpine Immune Sciences in 2024. With a $4.',
+  timestamp: '2026-01-28T03:45:09.829Z'
+}
+[Dedupe] llmCallEnd row=2 prompt=email keySuffix=41272979 success=true len=1096
+[Dedupe] key row=3 prompt=research_brief model=perplexity/sonar-reasoning-pro keySuffix=e7b085ef len=4535
+[Dedupe] llmCallStart row=3 prompt=research_brief keySuffix=e7b085ef len=4535
+[JobProcessor] Making LLM call {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  promptLength: 4569,
+  hasSystem: true
+}
+[LLMService:hyadfv] processMessages:start {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  hasSystem: true,
+  systemLen: 2552,
+  userLen: 4569,
+  totalLen: 7121,
+  timeoutMs: 20000,
+  timestamp: '2026-01-28T03:45:11.455Z'
+}
+[LLMService:g7tu7l] withTimeoutAndRetries:start {
+  timeoutMs: 20000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:45:11.455Z'
+}
+[LLMService:g7tu7l] attempt:0:start { timeoutMs: 20000, timestamp: '2026-01-28T03:45:11.455Z' }
+{"level":"INFO","ts":"2026-01-28T03:45:15.568Z","msg":"AuthService.syncUser:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"LXI1Fhl-eWhgVlhPCTbUT"}
+{"level":"INFO","ts":"2026-01-28T03:45:15.685Z","msg":"AuthService.syncUser:exists","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"LXI1Fhl-eWhgVlhPCTbUT"}
+{"level":"INFO","ts":"2026-01-28T03:45:15.686Z","msg":"http_request","method":"POST","path":"/api/auth/sync","status":200,"durationMs":118,"requestId":"LXI1Fhl-eWhgVlhPCTbUT"}
+AUTH MIDDLEWARE DEBUG: {
+  path: '/api/auth/session',
+  method: 'GET',
+  hasAuthHeader: true,
+  authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+  hasToken: true,
+  tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+  requestId: 'Kb8vZdXoVlakUdsx6HOOc'
+}
+{"level":"INFO","ts":"2026-01-28T03:45:15.883Z","msg":"AuthService.getSession:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"Kb8vZdXoVlakUdsx6HOOc"}
+{"level":"INFO","ts":"2026-01-28T03:45:15.999Z","msg":"AuthService.getSession:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"Kb8vZdXoVlakUdsx6HOOc"}
+{"level":"INFO","ts":"2026-01-28T03:45:16.000Z","msg":"http_request","method":"GET","path":"/api/auth/session","status":304,"durationMs":233,"requestId":"Kb8vZdXoVlakUdsx6HOOc"}
+[LLMService:g7tu7l] attempt:0:success {
+  elapsedMs: 17135,
+  timeoutMs: 20000,
+  headroom: 2865,
+  timestamp: '2026-01-28T03:45:28.590Z'
+}
+[LLMService:hyadfv] processMessages:success {
+  provider: 'perplexity',
+  modelId: 'sonar-reasoning-pro',
+  totalElapsedMs: 17135,
+  contentLen: 4745,
+  contentPreview: '## Verified Deal Facts\n' +
+    '\n' +
+    '**Acquisition Date:** Announced December 6, 2023[1]; com',
+  timestamp: '2026-01-28T03:45:28.590Z'
+}
+[Dedupe] llmCallEnd row=3 prompt=research_brief keySuffix=e7b085ef success=true len=4745
+[Dedupe] key row=3 prompt=personalization_brief model=openai/gpt-5 keySuffix=7bbdd60a len=5809
+[Dedupe] llmCallStart row=3 prompt=personalization_brief keySuffix=7bbdd60a len=5809
+[JobProcessor] Making LLM call {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  promptLength: 5870,
+  hasSystem: true
+}
+[LLMService] Reasoning model detected - using extended timeout { provider: 'openai', modelId: 'gpt-5', timeoutMs: 150000 }
+[LLMService:c5vt3u] processMessages:start {
+  provider: 'openai',
+  modelId: 'gpt-5',
+  hasSystem: true,
+  systemLen: 3882,
+  userLen: 5870,
+  totalLen: 9752,
+  timeoutMs: 150000,
+  timestamp: '2026-01-28T03:45:29.671Z'
+}
+[LLMService:5jqfmy] withTimeoutAndRetries:start {
+  timeoutMs: 150000,
+  maxRetries: 2,
+  timestamp: '2026-01-28T03:45:29.672Z'
+}
+[LLMService:5jqfmy] attempt:0:start { timeoutMs: 150000, timestamp: '2026-01-28T03:45:29.67
