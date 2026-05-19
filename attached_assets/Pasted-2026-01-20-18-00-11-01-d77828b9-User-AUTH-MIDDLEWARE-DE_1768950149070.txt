@@ -1,0 +1,152 @@
+2026-01-20 18:00:11.01
+d77828b9
+User
+AUTH MIDDLEWARE DEBUG: {
+2026-01-20 18:00:11.01
+d77828b9
+User
+path: '/api/jobs/62603969-445a-4ef0-8ec5-c0a6299c9919/download',
+2026-01-20 18:00:11.01
+d77828b9
+User
+requestId: 'PkJ76fH1fOa55ocMo5ldp'
+2026-01-20 18:00:11.01
+d77828b9
+User
+hasToken: true,
+2026-01-20 18:00:11.01
+d77828b9
+User
+hasAuthHeader: true,
+2026-01-20 18:00:11.01
+d77828b9
+User
+}
+2026-01-20 18:00:11.01
+d77828b9
+User
+authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+2026-01-20 18:00:11.01
+d77828b9
+User
+method: 'GET',
+2026-01-20 18:00:11.05
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:11.058Z","msg":"JobsService.getDownloadUrl:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","jobId":"62603969-445a-4ef0-8ec5-c0a6299c9919","requestId":"PkJ76fH1fOa55ocMo5ldp"}
+2026-01-20 18:00:11.43
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:11.439Z","msg":"JobsService.getDownloadUrl:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","jobId":"62603969-445a-4ef0-8ec5-c0a6299c9919","requestId":"PkJ76fH1fOa55ocMo5ldp"}
+2026-01-20 18:00:11.44
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:11.439Z","msg":"http_request","method":"GET","path":"/api/jobs/62603969-445a-4ef0-8ec5-c0a6299c9919/download","status":200,"durationMs":425,"requestId":"PkJ76fH1fOa55ocMo5ldp"}
+2026-01-20 18:00:18.77
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.778Z","msg":"AuthService.syncUser:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"ClVAPy4cuZ2unfhvVD_nr"}
+2026-01-20 18:00:18.78
+d77828b9
+User
+path: '/api/history',
+2026-01-20 18:00:18.78
+d77828b9
+User
+hasAuthHeader: true,
+2026-01-20 18:00:18.78
+d77828b9
+User
+hasToken: true,
+2026-01-20 18:00:18.78
+d77828b9
+User
+}
+2026-01-20 18:00:18.78
+d77828b9
+User
+authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+2026-01-20 18:00:18.78
+d77828b9
+User
+tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+2026-01-20 18:00:18.78
+d77828b9
+User
+AUTH MIDDLEWARE DEBUG: {
+2026-01-20 18:00:18.78
+d77828b9
+User
+requestId: 'VOQGiispQxLE-tWO5z1De'
+2026-01-20 18:00:18.78
+d77828b9
+User
+method: 'GET',
+2026-01-20 18:00:18.82
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.821Z","msg":"AuthService.syncUser:exists","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"ClVAPy4cuZ2unfhvVD_nr"}
+2026-01-20 18:00:18.82
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.822Z","msg":"http_request","method":"POST","path":"/api/auth/sync","status":200,"durationMs":45,"requestId":"ClVAPy4cuZ2unfhvVD_nr"}
+2026-01-20 18:00:18.86
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.865Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"VOQGiispQxLE-tWO5z1De"}
+2026-01-20 18:00:18.89
+d77828b9
+User
+path: '/api/auth/session',
+2026-01-20 18:00:18.89
+d77828b9
+User
+hasAuthHeader: true,
+2026-01-20 18:00:18.89
+d77828b9
+User
+AUTH MIDDLEWARE DEBUG: {
+2026-01-20 18:00:18.89
+d77828b9
+User
+requestId: 'VeCflP7tP3o9OxtgyUvfg'
+2026-01-20 18:00:18.89
+d77828b9
+User
+authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+2026-01-20 18:00:18.89
+d77828b9
+User
+method: 'GET',
+2026-01-20 18:00:18.89
+d77828b9
+User
+tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+2026-01-20 18:00:18.89
+d77828b9
+User
+}
+2026-01-20 18:00:18.89
+d77828b9
+User
+hasToken: true,
+2026-01-20 18:00:18.90
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.909Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":125,"requestId":"VOQGiispQxLE-tWO5z1De"}
+2026-01-20 18:00:18.90
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.908Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"VOQGiispQxLE-tWO5z1De"}
+2026-01-20 18:00:18.95
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.952Z","msg":"AuthService.getSession:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"VeCflP7tP3o9OxtgyUvfg"}
+2026-01-20 18:00:18.99
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.996Z","msg":"AuthService.getSession:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"VeCflP7tP3o9OxtgyUvfg"}
+2026-01-20 18:00:18.99
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-20T23:00:18.997Z","msg":"http_request","method":"GET","path":"/api/auth/

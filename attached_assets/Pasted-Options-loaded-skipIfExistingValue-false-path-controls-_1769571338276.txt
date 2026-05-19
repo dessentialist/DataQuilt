@@ -1,0 +1,134 @@
+Options] loaded skipIfExistingValue=false path=controls/fe7f45d7-6626-4106-bfb3-2eedc0ba652a/57a48abc-52c3-4bde-8197-01f7f0fe49ab.json
+[JobProcessor] CSV data loaded: {
+  rowCount: 5,
+  sampleRow: {
+    'First Name': 'Eunice',
+    'Last Name': 'Jung',
+    Title: 'Senior Director, Head of Decision Science & Analytics, Global Regulatory Affairs',
+    'Company Name': 'Sanofi',
+    Email: 'eunice.jung@sanofi.com',
+    Departments: 'Information Technology, Legal',
+    'Mobile Phone': '',
+    Lists: 'MA 2024_Data Leaders, MA 2024_Analytics',
+    Industry: 'pharmaceuticals',
+    'Person Linkedin Url': 'http://www.linkedin.com/in/eunice-jung-6602213',
+    City: 'Cambridge',
+    'Acquired Company': 'Inhibrx (INBRX-101 assets)',
+    'Acquired Company Industry/Market/Domain': 'Pharma/Biotech',
+    'Deal Size (if disclosed)': '$2.2B',
+    'Month of Acquisition': 'June',
+    'Deal Details': '**Acquisition Summary: Sanofi–Inhibrx (INBRX-101 Assets)**\n' +
+      '\n' +
+      '**Asset Acquired**\n' +
+      '\n' +
+      'Sanofi acquired INBRX-101 (later renamed SAR447537), an optimized recombinant alpha-1 antitrypsin (AAT) augmentation therapy in development for alpha-1 antitrypsin deficiency (AATD).[1][3] INBRX-101 had completed Phase 1 clinical trials and was enrolling Phase 2 at the time of the deal announcement.[5] Sanofi also assumed all associated assets and liabilities.[1]\n' +
+      '\n' +
+      '**Deal Structure**\n' +
+      '\n' +
+      'The transaction was structured as a spin-off-plus-merger:[1]\n' +
+      '\n' +
+      '- Prior to closing, Inhibrx completed a spin-off of all non-INBRX-101 assets into a new publicly traded company, Inhibrx Biosciences, Inc. (operating as "Inhibrx").[2][3]\n' +
+      '- Sanofi then acquired Inhibrx through a merger.[1]\n' +
+      '- Inhibrx shareholders received per-share consideration: $30.00 cash + $5.00 contingent value right (CVR) upon achievement of a regulatory milestone + 0.25 shares of New Inhibrx.[1][5]\n' +
+      '- Sanofi retained an 8% equity stake in New Inhibrx.[1][5]\n' +
+      "- Sanofi assumed and retired Inhibrx's outstanding third-party debt and capitalized New Inhibrx with $200 million in cash.[1]\n" +
+      '- Aggregate transaction value: approximately $2.2 billion.[1]\n' +
+      '\n' +
+      '**Stated Rationale**\n' +
+      '\n' +
+      `According to Sanofi's Head of R&D, Houman Ashrafian: "The addition of INBRX-101 as a high potential asset to our rare disease portfolio reinforces our strategy to commit to differentiated and potential best-in-class products. With our expertise in rare diseases and growing presence in immune-mediated respiratory conditions, INBRX-101 will complement our approach to deploy R&D efforts in key areas of focus and address the needs of the underserved AATD patients and communities."[5] The acquisition was positioned to support Sanofi's portfolio growth strategy and complement its 30-year heritage in rare diseases.[5]\n` +
+      '\n' +
+      '**Key Dates**\n' +
+      '\n' +
+      '- **Announcement:** January 23, 2024[1][5]\n' +
+      '- **Completion:** May 30, 2024[3]\n' +
+      '\n' +
+      '**Post-Deal Information**\n' +
+      '\n' +
+      "Following closing, the asset was integrated into Sanofi's rare disease pipeline under the designation SAR447537.[3] New Inhibrx retained INBRX-109, INBRX-106, INBRX-105, and Inhibrx's non-INBRX-101 discovery pipeline, and continued operating under the Inhibrx name led by Mark P. Lappe as Chairman and CEO.[1][5]",
+    'Stakeholders Involved': '# Explicitly Named Stakeholders: Sanofi–Inhibrx (INBRX-101 Assets) Transaction\n' +
+      '\n' +
+      '**Mark P. Lappe**\n' +
+      '- Designation: Founder and CEO of Inhibrx\n' +
+      '- Company Represented: Inhibrx\n' +
+      '- Explicitly Stated Relationship: Founder and CEO of Inhibrx; transitioned to Chairman and CEO of New Inhibrx (the spun-off entity retaining non-INBRX-101 assets) following the transaction closing[1][3]\n' +
+      '\n' +
+      '**Houman Ashrafian**\n' +
+      '- Designation: Head of R&D\n' +
+      '- Company Represented: Sanofi\n' +
+      '- Explicitly Stated Relationship: Provided strategic rationale for the acquisition on behalf of Sanofi[5]\n' +
+      '\n' +
+      '---\n' +
+      '\n' +
+      '**Note:** The search results explicitly name only two individuals in connection with this transaction. While the press releases confirm that "the boards of directors of both Inhibrx and Sanofi have unanimously approved the transaction,"[1][2] no other individual board members, executives, or deal leads from either company are publicly named in the available sources. Financial advisors (Lazard for Sanofi; Centerview Partners for Inhibrx) and legal counsel are identified but excluded per standard stakeholder mapping protocol unless explicitly requested.'
+  },
+  headers: [
+    'First Name',
+    'Last Name',
+    'Title',
+    'Company Name',
+    'Email',
+    'Departments',
+    'Mobile Phone',
+    'Lists',
+    'Industry',
+    'Person Linkedin Url',
+    'City',
+    'Acquired Company',
+    'Acquired Company Industry/Market/Domain',
+    'Deal Size (if disclosed)',
+    'Month of Acquisition',
+    'Deal Details',
+    'Stakeholders Involved'
+  ]
+}
+[JobProcessor] Prompts parsed: {
+  promptCount: 4,
+  prompts: [
+    {
+      model: 'perplexity',
+      outputColumn: 'research_brief',
+      promptLength: 1310
+    },
+    {
+      model: 'openai',
+      outputColumn: 'personalization_brief',
+      promptLength: 1096
+    },
+    { model: 'openai', outputColumn: 'email_draft', promptLength: 686 },
+    { model: 'openai', outputColumn: 'email', promptLength: 429 }
+  ]
+}
+[supabaseStorage] download error: StorageUnknownError: {}
+    at <anonymous> (/home/runner/workspace/node_modules/@supabase/storage-js/src/lib/fetch.ts:36:12)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/runner/workspace/node_modules/@supabase/storage-js/dist/main/lib/fetch.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  __isStorageError: true,
+  originalError: Response {
+    status: 400,
+    statusText: 'Bad Request',
+    headers: Headers {
+      date: 'Wed, 28 Jan 2026 03:34:14 GMT',
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '69',
+      connection: 'keep-alive',
+      server: 'cloudflare',
+      'cf-ray': '9c4d6ed2880ad452-SEA',
+      'cf-cache-status': 'MISS',
+      'access-control-allow-origin': '*',
+      'strict-transport-security': 'max-age=31536000; includeSubDomains; preload',
+      'sb-gateway-mode': 'direct',
+      'sb-gateway-version': '1',
+      'sb-project-ref': 'skkzsnzrqzurzlwrekdd',
+      'sb-request-id': '019c02aa-7f9c-7e2e-b61c-a42447e49e8d',
+      'set-cookie': '__cf_bm=Vb70bQNetGVKqx0i6oQZrDi2GtCaEXG9Ki1wG6jpM30-1769571254-1.0.1.1-fp1ShLoctInM4eZnj.x8sp4xai8xfD1heif_NXC_4NX1e1esmD1MhNf_sMVtpcEG.vYCsMgdFaUbBfIEfe_aDj.QvgmWIRFbrAyB0wqC028; path=/; expires=Wed, 28-Jan-26 04:04:14 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None',
+      vary: 'Accept-Encoding',
+      'alt-svc': 'h3=":443"; ma=86400'
+    },
+    body: ReadableStream { locked: false, state: 'readable', supportsBYOB: true },
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'basic',
+    url: 'https://skkzsnzrqzurzlwrekdd.supabase.co/storage/v1/object/oracle-files/enriched/fe7f45d7-6626-4106-bfb3-2eedc0ba652a/57a48abc-52c3-4bde-8197-01f7f0fe49ab_partial.csv'

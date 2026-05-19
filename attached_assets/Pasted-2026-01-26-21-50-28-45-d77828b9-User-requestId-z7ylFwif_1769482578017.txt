@@ -1,0 +1,136 @@
+2026-01-26 21:50:28.45
+d77828b9
+User
+requestId: 'z7ylFwifm02baY3aZbE56'
+2026-01-26 21:50:28.45
+d77828b9
+User
+method: 'GET',
+2026-01-26 21:50:28.45
+d77828b9
+User
+authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+2026-01-26 21:50:28.45
+d77828b9
+User
+}
+2026-01-26 21:50:28.45
+d77828b9
+User
+path: '/api/history',
+2026-01-26 21:50:28.45
+d77828b9
+User
+hasToken: true,
+2026-01-26 21:50:28.45
+d77828b9
+User
+AUTH MIDDLEWARE DEBUG: {
+2026-01-26 21:50:28.49
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:28.499Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"z7ylFwifm02baY3aZbE56"}
+2026-01-26 21:50:28.54
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:28.545Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"z7ylFwifm02baY3aZbE56"}
+2026-01-26 21:50:28.54
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:28.545Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":89,"requestId":"z7ylFwifm02baY3aZbE56"}
+2026-01-26 21:50:38.63
+d77828b9
+User
+}
+2026-01-26 21:50:38.63
+d77828b9
+User
+AUTH MIDDLEWARE DEBUG: {
+2026-01-26 21:50:38.63
+d77828b9
+User
+method: 'GET',
+2026-01-26 21:50:38.63
+d77828b9
+User
+path: '/api/history',
+2026-01-26 21:50:38.63
+d77828b9
+User
+hasToken: true,
+2026-01-26 21:50:38.63
+d77828b9
+User
+requestId: 'h6T_1kDnXepFJ4Zg_xc9r'
+2026-01-26 21:50:38.63
+d77828b9
+User
+authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+2026-01-26 21:50:38.63
+d77828b9
+User
+hasAuthHeader: true,
+2026-01-26 21:50:38.63
+d77828b9
+User
+tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+2026-01-26 21:50:38.68
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:38.679Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"h6T_1kDnXepFJ4Zg_xc9r"}
+2026-01-26 21:50:38.72
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:38.723Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"h6T_1kDnXepFJ4Zg_xc9r"}
+2026-01-26 21:50:38.72
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:38.724Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":87,"requestId":"h6T_1kDnXepFJ4Zg_xc9r"}
+2026-01-26 21:50:48.81
+d77828b9
+User
+tokenPreview: 'eyJhbGciOiJIUzI1NiIs...',
+2026-01-26 21:50:48.81
+d77828b9
+User
+hasAuthHeader: true,
+2026-01-26 21:50:48.81
+d77828b9
+User
+method: 'GET',
+2026-01-26 21:50:48.81
+d77828b9
+User
+hasToken: true,
+2026-01-26 21:50:48.81
+d77828b9
+User
+authHeaderPreview: 'Bearer eyJhbGciOiJIU...',
+2026-01-26 21:50:48.81
+d77828b9
+User
+path: '/api/history',
+2026-01-26 21:50:48.81
+d77828b9
+User
+AUTH MIDDLEWARE DEBUG: {
+2026-01-26 21:50:48.81
+d77828b9
+User
+requestId: '12Jzd_ZZBjrPDieqSSVhv'
+2026-01-26 21:50:48.81
+d77828b9
+User
+}
+2026-01-26 21:50:48.86
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:48.860Z","msg":"HistoryService.listHistory:start","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","requestId":"12Jzd_ZZBjrPDieqSSVhv"}
+2026-01-26 21:50:48.90
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:48.904Z","msg":"http_request","method":"GET","path":"/api/history","status":304,"durationMs":87,"requestId":"12Jzd_ZZBjrPDieqSSVhv"}
+2026-01-26 21:50:48.90
+d77828b9
+User
+{"level":"INFO","ts":"2026-01-27T02:50:48.903Z","msg":"HistoryService.listHistory:success","userId":"fe7f45d7-6626-4106-bfb3-2eedc0ba652a","count":0,"requestId":"12Jzd_ZZBjrPDieqSSVhv"}
